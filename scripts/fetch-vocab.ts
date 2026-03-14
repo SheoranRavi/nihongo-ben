@@ -1,5 +1,5 @@
 /**
- * One-time script to fetch N5 vocabulary from the JLPT Vocab API
+ * One-time script to fetch N5 + N4 vocabulary from the JLPT Vocab API
  * and save it to src/data/words.json.
  *
  * Run with: npx tsx scripts/fetch-vocab.ts
@@ -56,18 +56,27 @@ function normalizePos(pos: string): string {
   return pos || 'other';
 }
 
-async function fetchFromJlptApi(): Promise<Word[]> {
-  console.log('Fetching from JLPT Vocab API...');
-  const url = 'https://jlpt-vocab-api.vercel.app/api/words?level=n5&limit=1000';
+async function fetchLevel(level: number): Promise<ApiWord[]> {
+  console.log(`Fetching level ${level} from JLPT Vocab API...`);
+  const url = `https://jlpt-vocab-api.vercel.app/api/words?level=${level}&limit=1500`;
   const res = await fetch(url);
   if (!res.ok) throw new Error(`JLPT API returned ${res.status}`);
   const data = await res.json() as { words: ApiWord[] };
   const words = data.words ?? data;
+  const list = Array.isArray(words) ? words : [];
+  console.log(`  Level ${level}: ${list.length} raw words`);
+  return list;
+}
+
+async function fetchFromJlptApi(): Promise<Word[]> {
+  const n5 = await fetchLevel(5);
+  const n4 = await fetchLevel(4);
+  const allRaw = [...n5, ...n4];
 
   const seen = new Set<string>();
   const result: Word[] = [];
 
-  for (const w of (Array.isArray(words) ? words : [])) {
+  for (const w of allRaw) {
     const reading = w.furigana?.trim() || w.word?.trim();
     if (!reading) continue;
 
@@ -90,7 +99,7 @@ async function fetchFromJlptApi(): Promise<Word[]> {
     });
   }
 
-  console.log(`Fetched ${result.length} words from JLPT API`);
+  console.log(`Fetched ${result.length} unique words (N5 + N4)`);
   return result;
 }
 

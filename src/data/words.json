@@ -6767,5 +6767,1995 @@
     "reading": "まんが",
     "meaning": "comic",
     "pos": "other"
+  },
+  {
+    "id": "おや-parents",
+    "kanji": "親",
+    "reading": "おや",
+    "meaning": "parents",
+    "pos": "other"
+  },
+  {
+    "id": "あんぜん-safety",
+    "kanji": "安全",
+    "reading": "あんぜん",
+    "meaning": "safety",
+    "pos": "other"
+  },
+  {
+    "id": "あんない・する-to-guide",
+    "kanji": "案内",
+    "reading": "あんない・する",
+    "meaning": "to guide",
+    "pos": "other"
+  },
+  {
+    "id": "たな-shelves",
+    "kanji": "棚",
+    "reading": "たな",
+    "meaning": "shelves",
+    "pos": "other"
+  },
+  {
+    "id": "ふべん-inconvenience",
+    "kanji": "不便",
+    "reading": "ふべん",
+    "meaning": "inconvenience",
+    "pos": "other"
+  },
+  {
+    "id": "あいだ-a-space",
+    "kanji": "間",
+    "reading": "あいだ",
+    "meaning": "a space",
+    "pos": "other"
+  },
+  {
+    "id": "はずかしい-embarrassed",
+    "kanji": "恥ずかしい",
+    "reading": "はずかしい",
+    "meaning": "embarrassed",
+    "pos": "other"
+  },
+  {
+    "id": "うつ-to-hit",
+    "kanji": "打つ",
+    "reading": "うつ",
+    "meaning": "to hit",
+    "pos": "other"
+  },
+  {
+    "id": "たおれる-to-break-down",
+    "kanji": "倒れる",
+    "reading": "たおれる",
+    "meaning": "to break down",
+    "pos": "other"
+  },
+  {
+    "id": "ひかり-light",
+    "kanji": "光",
+    "reading": "ひかり",
+    "meaning": "light",
+    "pos": "other"
+  },
+  {
+    "id": "こうつう-traffic-transportation",
+    "kanji": "交通",
+    "reading": "こうつう",
+    "meaning": "traffic, transportation",
+    "pos": "other"
+  },
+  {
+    "id": "やはり / やっぱり-as-i-thought-absolutely",
+    "kanji": "やはり / やっぱり",
+    "reading": "やはり / やっぱり",
+    "meaning": "as I thought, absolutely",
+    "pos": "other"
+  },
+  {
+    "id": "スクリーン-screen",
+    "reading": "スクリーン",
+    "meaning": "screen",
+    "pos": "other"
+  },
+  {
+    "id": "こまかい-small-fine",
+    "kanji": "細かい",
+    "reading": "こまかい",
+    "meaning": "small, fine",
+    "pos": "other"
+  },
+  {
+    "id": "おっと-husband",
+    "kanji": "夫",
+    "reading": "おっと",
+    "meaning": "husband",
+    "pos": "other"
+  },
+  {
+    "id": "さしあげる-polite-to-give",
+    "kanji": "差し上げる",
+    "reading": "さしあげる",
+    "meaning": "(polite) to give",
+    "pos": "other"
+  },
+  {
+    "id": "こわす-to-break",
+    "kanji": "壊す",
+    "reading": "こわす",
+    "meaning": "to break",
+    "pos": "other"
+  },
+  {
+    "id": "そんな-that-sort-of",
+    "reading": "そんな",
+    "meaning": "that sort of",
+    "pos": "other"
+  },
+  {
+    "id": "レジ-register",
+    "reading": "レジ",
+    "meaning": "register",
+    "pos": "other"
+  },
+  {
+    "id": "もどる-to-turn-back",
+    "kanji": "戻る",
+    "reading": "もどる",
+    "meaning": "to turn back",
+    "pos": "other"
+  },
+  {
+    "id": "こくさい-international",
+    "kanji": "国際",
+    "reading": "こくさい",
+    "meaning": "international",
+    "pos": "other"
+  },
+  {
+    "id": "おと-sound-note",
+    "kanji": "音",
+    "reading": "おと",
+    "meaning": "sound, note",
+    "pos": "other"
+  },
+  {
+    "id": "はず-it-should-be-so",
+    "reading": "はず",
+    "meaning": "it should be so",
+    "pos": "other"
+  },
+  {
+    "id": "ひつよう-necessary",
+    "kanji": "必要",
+    "reading": "ひつよう",
+    "meaning": "necessary",
+    "pos": "other"
+  },
+  {
+    "id": "さんぎょう-industry",
+    "kanji": "産業",
+    "reading": "さんぎょう",
+    "meaning": "industry",
+    "pos": "other"
+  },
+  {
+    "id": "すすむ-to-make-progress",
+    "kanji": "進む",
+    "reading": "すすむ",
+    "meaning": "to make progress",
+    "pos": "other"
+  },
+  {
+    "id": "しばらく-little-while",
+    "reading": "しばらく",
+    "meaning": "little while",
+    "pos": "other"
+  },
+  {
+    "id": "かがみ-mirror",
+    "kanji": "鏡",
+    "reading": "かがみ",
+    "meaning": "mirror",
+    "pos": "other"
+  },
+  {
+    "id": "ソフト-soft",
+    "reading": "ソフト",
+    "meaning": "soft",
+    "pos": "other"
+  },
+  {
+    "id": "ちゃん-suffix-for-familiar-female-per",
+    "reading": "ちゃん",
+    "meaning": "suffix for familiar female person",
+    "pos": "other"
+  },
+  {
+    "id": "ひ-day-sun",
+    "kanji": "日",
+    "reading": "ひ",
+    "meaning": "day, sun",
+    "pos": "other"
+  },
+  {
+    "id": "めずらしい-rare",
+    "kanji": "珍しい",
+    "reading": "めずらしい",
+    "meaning": "rare",
+    "pos": "other"
+  },
+  {
+    "id": "つごう-circumstances-convenience",
+    "kanji": "都合",
+    "reading": "つごう",
+    "meaning": "circumstances, convenience",
+    "pos": "other"
+  },
+  {
+    "id": "わすれもの-lost-article",
+    "kanji": "忘れ物",
+    "reading": "わすれもの",
+    "meaning": "lost article",
+    "pos": "other"
+  },
+  {
+    "id": "おどろく-to-be-surprised",
+    "kanji": "驚く",
+    "reading": "おどろく",
+    "meaning": "to be surprised",
+    "pos": "other"
+  },
+  {
+    "id": "にげる-to-escape",
+    "kanji": "逃げる",
+    "reading": "にげる",
+    "meaning": "to escape",
+    "pos": "other"
+  },
+  {
+    "id": "こころ-core-heart",
+    "kanji": "心",
+    "reading": "こころ",
+    "meaning": "core, heart",
+    "pos": "other"
+  },
+  {
+    "id": "つもり-intention",
+    "reading": "つもり",
+    "meaning": "intention",
+    "pos": "other"
+  },
+  {
+    "id": "ちゅうがっこう-junior-high-school-middle-scho",
+    "kanji": "中学校",
+    "reading": "ちゅうがっこう",
+    "meaning": "junior high school, middle school",
+    "pos": "other"
+  },
+  {
+    "id": "すみ-corner-nook",
+    "kanji": "隅",
+    "reading": "すみ",
+    "meaning": "corner, nook",
+    "pos": "other"
+  },
+  {
+    "id": "ひらく-to-open-an-event",
+    "kanji": "開く",
+    "reading": "ひらく",
+    "meaning": "to open an event",
+    "pos": "other"
+  },
+  {
+    "id": "ジャム-jam",
+    "reading": "ジャム",
+    "meaning": "jam",
+    "pos": "other"
+  },
+  {
+    "id": "きまる-to-be-decided",
+    "kanji": "決る",
+    "reading": "きまる",
+    "meaning": "to be decided",
+    "pos": "other"
+  },
+  {
+    "id": "ちから-strength-power",
+    "kanji": "力",
+    "reading": "ちから",
+    "meaning": "strength, power",
+    "pos": "other"
+  },
+  {
+    "id": "ねだん-price",
+    "reading": "ねだん",
+    "meaning": "price",
+    "pos": "other"
+  },
+  {
+    "id": "ふとる-to-become-fat",
+    "kanji": "太る",
+    "reading": "ふとる",
+    "meaning": "to become fat",
+    "pos": "other"
+  },
+  {
+    "id": "けいかく・する-to-plan",
+    "kanji": "計画",
+    "reading": "けいかく・する",
+    "meaning": "to plan",
+    "pos": "other"
+  },
+  {
+    "id": "かつ-to-win",
+    "kanji": "勝つ",
+    "reading": "かつ",
+    "meaning": "to win",
+    "pos": "other"
+  },
+  {
+    "id": "ねむい-sleepy",
+    "kanji": "眠い",
+    "reading": "ねむい",
+    "meaning": "sleepy",
+    "pos": "other"
+  },
+  {
+    "id": "せんぱい-senior",
+    "kanji": "先輩",
+    "reading": "せんぱい",
+    "meaning": "senior",
+    "pos": "other"
+  },
+  {
+    "id": "ほんやく-translation",
+    "kanji": "翻訳",
+    "reading": "ほんやく",
+    "meaning": "translation",
+    "pos": "other"
+  },
+  {
+    "id": "じょせい-woman",
+    "kanji": "女性",
+    "reading": "じょせい",
+    "meaning": "woman",
+    "pos": "other"
+  },
+  {
+    "id": "かたち-shape",
+    "kanji": "形",
+    "reading": "かたち",
+    "meaning": "shape",
+    "pos": "other"
+  },
+  {
+    "id": "ごぞんじ-knowing-acquaintance",
+    "kanji": "ご存じ",
+    "reading": "ごぞんじ",
+    "meaning": "knowing, acquaintance",
+    "pos": "other"
+  },
+  {
+    "id": "あんな-such",
+    "reading": "あんな",
+    "meaning": "such",
+    "pos": "other"
+  },
+  {
+    "id": "このごろ-these-days-nowadays",
+    "reading": "このごろ",
+    "meaning": "these days, nowadays",
+    "pos": "other"
+  },
+  {
+    "id": "すべる-to-slide-to-slip",
+    "kanji": "滑る",
+    "reading": "すべる",
+    "meaning": "to slide, to slip",
+    "pos": "other"
+  },
+  {
+    "id": "わかす-to-boil-to-heat",
+    "kanji": "沸かす",
+    "reading": "わかす",
+    "meaning": "to boil, to heat",
+    "pos": "other"
+  },
+  {
+    "id": "うつる-to-move-house-or-transfer",
+    "kanji": "移る",
+    "reading": "うつる",
+    "meaning": "to move house or transfer",
+    "pos": "other"
+  },
+  {
+    "id": "えらぶ-to-choose",
+    "kanji": "選ぶ",
+    "reading": "えらぶ",
+    "meaning": "to choose",
+    "pos": "other"
+  },
+  {
+    "id": "こうこうせい-high-school-student",
+    "kanji": "高校生",
+    "reading": "こうこうせい",
+    "meaning": "high school student",
+    "pos": "other"
+  },
+  {
+    "id": "さらいしゅう-the-week-after-next",
+    "kanji": "さ来週",
+    "reading": "さらいしゅう",
+    "meaning": "the week after next",
+    "pos": "other"
+  },
+  {
+    "id": "うん-informal-yes",
+    "reading": "うん",
+    "meaning": "(informal) yes",
+    "pos": "other"
+  },
+  {
+    "id": "かえり-return",
+    "kanji": "帰り",
+    "reading": "かえり",
+    "meaning": "return",
+    "pos": "other"
+  },
+  {
+    "id": "ゆ-hot-water",
+    "kanji": "湯",
+    "reading": "ゆ",
+    "meaning": "hot water",
+    "pos": "other"
+  },
+  {
+    "id": "むかし-olden-days-former",
+    "kanji": "昔",
+    "reading": "むかし",
+    "meaning": "olden days, former",
+    "pos": "other"
+  },
+  {
+    "id": "あじ-flavour",
+    "kanji": "味",
+    "reading": "あじ",
+    "meaning": "flavour",
+    "pos": "other"
+  },
+  {
+    "id": "アジア-asia",
+    "reading": "アジア",
+    "meaning": "Asia",
+    "pos": "other"
+  },
+  {
+    "id": "にんぎょう-doll-figure",
+    "kanji": "人形",
+    "reading": "にんぎょう",
+    "meaning": "doll, figure",
+    "pos": "other"
+  },
+  {
+    "id": "なおる-to-be-cured-to-heal",
+    "kanji": "治る",
+    "reading": "なおる",
+    "meaning": "to be cured, to heal",
+    "pos": "other"
+  },
+  {
+    "id": "じゆう-freedom",
+    "kanji": "自由",
+    "reading": "じゆう",
+    "meaning": "freedom",
+    "pos": "other"
+  },
+  {
+    "id": "パート-part-time",
+    "reading": "パート",
+    "meaning": "part time",
+    "pos": "other"
+  },
+  {
+    "id": "ガラス-a-glass-pane",
+    "reading": "ガラス",
+    "meaning": "a glass pane",
+    "pos": "other"
+  },
+  {
+    "id": "だいじ-important-valuable-serious-mat",
+    "kanji": "大事",
+    "reading": "だいじ",
+    "meaning": "important, valuable, serious matter",
+    "pos": "other"
+  },
+  {
+    "id": "おくれる-to-be-late",
+    "kanji": "遅れる",
+    "reading": "おくれる",
+    "meaning": "to be late",
+    "pos": "other"
+  },
+  {
+    "id": "かいじょう-assembly-hall-or-meeting-place",
+    "kanji": "会場",
+    "reading": "かいじょう",
+    "meaning": "assembly hall or meeting place",
+    "pos": "other"
+  },
+  {
+    "id": "りよう-utilization",
+    "kanji": "利用",
+    "reading": "りよう",
+    "meaning": "utilization",
+    "pos": "other"
+  },
+  {
+    "id": "およぎかた-way-of-swimming",
+    "kanji": "泳ぎ方",
+    "reading": "およぎかた",
+    "meaning": "way of swimming",
+    "pos": "other"
+  },
+  {
+    "id": "ふつう-usually-or-a-train-that-stops-",
+    "kanji": "普通",
+    "reading": "ふつう",
+    "meaning": "usually, or a train that stops at every station",
+    "pos": "other"
+  },
+  {
+    "id": "ガス-petrol",
+    "reading": "ガス",
+    "meaning": "petrol",
+    "pos": "other"
+  },
+  {
+    "id": "かならず-certainly-necessarily",
+    "kanji": "必ず",
+    "reading": "かならず",
+    "meaning": "certainly, necessarily",
+    "pos": "other"
+  },
+  {
+    "id": "きょうそう-competition",
+    "kanji": "競争",
+    "reading": "きょうそう",
+    "meaning": "competition",
+    "pos": "other"
+  },
+  {
+    "id": "しょうち・する-to-consent",
+    "kanji": "承知",
+    "reading": "しょうち・する",
+    "meaning": "to consent",
+    "pos": "other"
+  },
+  {
+    "id": "やく-to-bake-to-grill",
+    "kanji": "焼く",
+    "reading": "やく",
+    "meaning": "to bake, to grill",
+    "pos": "other"
+  },
+  {
+    "id": "べつ-different",
+    "kanji": "別",
+    "reading": "べつ",
+    "meaning": "different",
+    "pos": "other"
+  },
+  {
+    "id": "すぎる-to-exceed",
+    "kanji": "過ぎる",
+    "reading": "すぎる",
+    "meaning": "to exceed",
+    "pos": "other"
+  },
+  {
+    "id": "れんらく-contact",
+    "kanji": "連絡",
+    "reading": "れんらく",
+    "meaning": "contact",
+    "pos": "other"
+  },
+  {
+    "id": "すると-then",
+    "reading": "すると",
+    "meaning": "then",
+    "pos": "other"
+  },
+  {
+    "id": "くれる-to-get-dark-to-come-to-an-end",
+    "kanji": "暮れる",
+    "reading": "くれる",
+    "meaning": "to get dark, to come to an end",
+    "pos": "other"
+  },
+  {
+    "id": "よろこぶ-to-be-delighted",
+    "kanji": "喜ぶ",
+    "reading": "よろこぶ",
+    "meaning": "to be delighted",
+    "pos": "other"
+  },
+  {
+    "id": "しゅうかん-custom-manners",
+    "kanji": "習慣",
+    "reading": "しゅうかん",
+    "meaning": "custom, manners",
+    "pos": "other"
+  },
+  {
+    "id": "ぶちょう-head-of-a-section",
+    "kanji": "部長",
+    "reading": "ぶちょう",
+    "meaning": "head of a section",
+    "pos": "other"
+  },
+  {
+    "id": "いのる-to-pray",
+    "kanji": "祈る",
+    "reading": "いのる",
+    "meaning": "to pray",
+    "pos": "other"
+  },
+  {
+    "id": "すいどう-water-supply",
+    "kanji": "水道",
+    "reading": "すいどう",
+    "meaning": "water supply",
+    "pos": "other"
+  },
+  {
+    "id": "とうとう-finally-after-all",
+    "reading": "とうとう",
+    "meaning": "finally, after all",
+    "pos": "other"
+  },
+  {
+    "id": "どうぐ-tool-means",
+    "kanji": "道具",
+    "reading": "どうぐ",
+    "meaning": "tool, means",
+    "pos": "other"
+  },
+  {
+    "id": "ケーキ-cake",
+    "reading": "ケーキ",
+    "meaning": "cake",
+    "pos": "other"
+  },
+  {
+    "id": "こうがい-outskirts",
+    "kanji": "郊外",
+    "reading": "こうがい",
+    "meaning": "outskirts",
+    "pos": "other"
+  },
+  {
+    "id": "おもちゃ-toy",
+    "reading": "おもちゃ",
+    "meaning": "toy",
+    "pos": "other"
+  },
+  {
+    "id": "さいきん-latest-nowadays",
+    "kanji": "最近",
+    "reading": "さいきん",
+    "meaning": "latest, nowadays",
+    "pos": "other"
+  },
+  {
+    "id": "もちろん-of-course",
+    "reading": "もちろん",
+    "meaning": "of course",
+    "pos": "other"
+  },
+  {
+    "id": "てんきよほう-weather-forecast",
+    "kanji": "天気予報",
+    "reading": "てんきよほう",
+    "meaning": "weather forecast",
+    "pos": "other"
+  },
+  {
+    "id": "のりもの-vehicle",
+    "kanji": "乗り物",
+    "reading": "のりもの",
+    "meaning": "vehicle",
+    "pos": "other"
+  },
+  {
+    "id": "なくなる-to-die",
+    "kanji": "亡くなる",
+    "reading": "なくなる",
+    "meaning": "to die",
+    "pos": "other"
+  },
+  {
+    "id": "たずねる-to-ask",
+    "kanji": "尋ねる",
+    "reading": "たずねる",
+    "meaning": "to ask",
+    "pos": "other"
+  },
+  {
+    "id": "かみ-hair",
+    "kanji": "髪",
+    "reading": "かみ",
+    "meaning": "hair",
+    "pos": "other"
+  },
+  {
+    "id": "うりば-place-where-things-are-sold",
+    "kanji": "売り場",
+    "reading": "うりば",
+    "meaning": "place where things are sold",
+    "pos": "other"
+  },
+  {
+    "id": "したぎ-underwear",
+    "kanji": "下着",
+    "reading": "したぎ",
+    "meaning": "underwear",
+    "pos": "other"
+  },
+  {
+    "id": "なる-to-sound",
+    "kanji": "鳴る",
+    "reading": "なる",
+    "meaning": "to sound",
+    "pos": "other"
+  },
+  {
+    "id": "ひこうじょう-airport",
+    "kanji": "飛行場",
+    "reading": "ひこうじょう",
+    "meaning": "airport",
+    "pos": "other"
+  },
+  {
+    "id": "と-metropolitan",
+    "kanji": "都",
+    "reading": "と",
+    "meaning": "metropolitan",
+    "pos": "other"
+  },
+  {
+    "id": "しんせつ-kindness",
+    "kanji": "親切",
+    "reading": "しんせつ",
+    "meaning": "kindness",
+    "pos": "other"
+  },
+  {
+    "id": "せいじ-politics-government",
+    "kanji": "政治",
+    "reading": "せいじ",
+    "meaning": "politics, government",
+    "pos": "other"
+  },
+  {
+    "id": "よやく-reservation",
+    "kanji": "予約",
+    "reading": "よやく",
+    "meaning": "reservation",
+    "pos": "other"
+  },
+  {
+    "id": "なく-to-weep",
+    "kanji": "泣く",
+    "reading": "なく",
+    "meaning": "to weep",
+    "pos": "other"
+  },
+  {
+    "id": "すっと-straight-all-of-a-sudden",
+    "reading": "すっと",
+    "meaning": "straight, all of a sudden",
+    "pos": "other"
+  },
+  {
+    "id": "きみ-informal-you-used-by-men-towar",
+    "kanji": "君",
+    "reading": "きみ",
+    "meaning": "(informal) You (used by men towards women)",
+    "pos": "other"
+  },
+  {
+    "id": "むすめ-humble-daughter",
+    "kanji": "娘",
+    "reading": "むすめ",
+    "meaning": "(humble) daughter",
+    "pos": "other"
+  },
+  {
+    "id": "ふむ-to-step-on",
+    "kanji": "踏む",
+    "reading": "ふむ",
+    "meaning": "to step on",
+    "pos": "other"
+  },
+  {
+    "id": "てんいん-shop-assistant",
+    "kanji": "店員",
+    "reading": "てんいん",
+    "meaning": "shop assistant",
+    "pos": "other"
+  },
+  {
+    "id": "かよう-to-commute",
+    "kanji": "通う",
+    "reading": "かよう",
+    "meaning": "to commute",
+    "pos": "other"
+  },
+  {
+    "id": "かのじょ-she-girlfriend",
+    "kanji": "彼女",
+    "reading": "かのじょ",
+    "meaning": "she, girlfriend",
+    "pos": "other"
+  },
+  {
+    "id": "ばしょ-location",
+    "kanji": "場所",
+    "reading": "ばしょ",
+    "meaning": "location",
+    "pos": "other"
+  },
+  {
+    "id": "もめん-cotton",
+    "kanji": "木綿",
+    "reading": "もめん",
+    "meaning": "cotton",
+    "pos": "other"
+  },
+  {
+    "id": "たたみ-japanese-straw-mat",
+    "kanji": "畳",
+    "reading": "たたみ",
+    "meaning": "Japanese straw mat",
+    "pos": "other"
+  },
+  {
+    "id": "うら-reverse-side",
+    "kanji": "裏",
+    "reading": "うら",
+    "meaning": "reverse side",
+    "pos": "other"
+  },
+  {
+    "id": "びっくり・する-to-be-surprised",
+    "reading": "びっくり・する",
+    "meaning": "to be surprised",
+    "pos": "other"
+  },
+  {
+    "id": "じしん-earthquake",
+    "kanji": "地震",
+    "reading": "じしん",
+    "meaning": "earthquake",
+    "pos": "other"
+  },
+  {
+    "id": "みずうみ-lake",
+    "kanji": "湖",
+    "reading": "みずうみ",
+    "meaning": "lake",
+    "pos": "other"
+  },
+  {
+    "id": "きけん-danger",
+    "kanji": "危険",
+    "reading": "きけん",
+    "meaning": "danger",
+    "pos": "other"
+  },
+  {
+    "id": "しゅっぱつ・する-to-depart",
+    "kanji": "出発",
+    "reading": "しゅっぱつ・する",
+    "meaning": "to depart",
+    "pos": "other"
+  },
+  {
+    "id": "よしゅう-preparation-for-a-lesson",
+    "kanji": "予習",
+    "reading": "よしゅう",
+    "meaning": "preparation for a lesson",
+    "pos": "other"
+  },
+  {
+    "id": "しょうらい-future-prospects",
+    "kanji": "将来",
+    "reading": "しょうらい",
+    "meaning": "future, prospects",
+    "pos": "other"
+  },
+  {
+    "id": "あそび-play",
+    "kanji": "遊び",
+    "reading": "あそび",
+    "meaning": "play",
+    "pos": "other"
+  },
+  {
+    "id": "かわる-to-change",
+    "kanji": "変わる",
+    "reading": "かわる",
+    "meaning": "to change",
+    "pos": "other"
+  },
+  {
+    "id": "じゅうどう-judo",
+    "kanji": "柔道",
+    "reading": "じゅうどう",
+    "meaning": "judo",
+    "pos": "other"
+  },
+  {
+    "id": "せつめい-explanation",
+    "kanji": "説明",
+    "reading": "せつめい",
+    "meaning": "explanation",
+    "pos": "other"
+  },
+  {
+    "id": "へんじ-reply",
+    "kanji": "返事",
+    "reading": "へんじ",
+    "meaning": "reply",
+    "pos": "other"
+  },
+  {
+    "id": "とくべつ-special",
+    "kanji": "特別",
+    "reading": "とくべつ",
+    "meaning": "special",
+    "pos": "other"
+  },
+  {
+    "id": "おりる-to-get-off",
+    "kanji": "下りる",
+    "reading": "おりる",
+    "meaning": "to get off",
+    "pos": "other"
+  },
+  {
+    "id": "だんぼう-heating",
+    "kanji": "暖房",
+    "reading": "だんぼう",
+    "meaning": "heating",
+    "pos": "other"
+  },
+  {
+    "id": "つたえる-to-report",
+    "kanji": "伝える",
+    "reading": "つたえる",
+    "meaning": "to report",
+    "pos": "other"
+  },
+  {
+    "id": "てんらんかい-exhibition",
+    "kanji": "展覧会",
+    "reading": "てんらんかい",
+    "meaning": "exhibition",
+    "pos": "other"
+  },
+  {
+    "id": "ガソリン-petrol",
+    "reading": "ガソリン",
+    "meaning": "petrol",
+    "pos": "other"
+  },
+  {
+    "id": "なかなか-considerably",
+    "kanji": "中々",
+    "reading": "なかなか",
+    "meaning": "considerably",
+    "pos": "other"
+  },
+  {
+    "id": "いと-thread",
+    "kanji": "糸",
+    "reading": "いと",
+    "meaning": "thread",
+    "pos": "other"
+  },
+  {
+    "id": "ばい-double",
+    "kanji": "倍",
+    "reading": "ばい",
+    "meaning": "double",
+    "pos": "other"
+  },
+  {
+    "id": "かちょう-section-manager",
+    "kanji": "課長",
+    "reading": "かちょう",
+    "meaning": "section manager",
+    "pos": "other"
+  },
+  {
+    "id": "けんぶつ-sightseeing",
+    "kanji": "見物",
+    "reading": "けんぶつ",
+    "meaning": "sightseeing",
+    "pos": "other"
+  },
+  {
+    "id": "ガソリンスタンド-petrol-station",
+    "reading": "ガソリンスタンド",
+    "meaning": "petrol station",
+    "pos": "other"
+  },
+  {
+    "id": "せき-seat",
+    "kanji": "席",
+    "reading": "せき",
+    "meaning": "seat",
+    "pos": "other"
+  },
+  {
+    "id": "かんけい-relationship",
+    "kanji": "関係",
+    "reading": "かんけい",
+    "meaning": "relationship",
+    "pos": "other"
+  },
+  {
+    "id": "はいけん・する-humble-to-look-at",
+    "kanji": "拝見",
+    "reading": "はいけん・する",
+    "meaning": "(humble) to look at",
+    "pos": "other"
+  },
+  {
+    "id": "たいふう-typhoon",
+    "kanji": "台風",
+    "reading": "たいふう",
+    "meaning": "typhoon",
+    "pos": "other"
+  },
+  {
+    "id": "かたづける-to-tidy-up",
+    "kanji": "片付ける",
+    "reading": "かたづける",
+    "meaning": "to tidy up",
+    "pos": "other"
+  },
+  {
+    "id": "ふね-ship",
+    "kanji": "舟",
+    "reading": "ふね",
+    "meaning": "ship",
+    "pos": "other"
+  },
+  {
+    "id": "または-or-otherwise",
+    "reading": "または",
+    "meaning": "or, otherwise",
+    "pos": "other"
+  },
+  {
+    "id": "きょういく-education",
+    "kanji": "教育",
+    "reading": "きょういく",
+    "meaning": "education",
+    "pos": "other"
+  },
+  {
+    "id": "ひっこす-to-move-house",
+    "kanji": "引っ越す",
+    "reading": "ひっこす",
+    "meaning": "to move house",
+    "pos": "other"
+  },
+  {
+    "id": "かいぎ-meeting",
+    "kanji": "会議",
+    "reading": "かいぎ",
+    "meaning": "meeting",
+    "pos": "other"
+  },
+  {
+    "id": "こめ-uncooked-rice",
+    "kanji": "米",
+    "reading": "こめ",
+    "meaning": "uncooked rice",
+    "pos": "other"
+  },
+  {
+    "id": "もっとも-extremely",
+    "reading": "もっとも",
+    "meaning": "extremely",
+    "pos": "other"
+  },
+  {
+    "id": "かまう-to-mind",
+    "reading": "かまう",
+    "meaning": "to mind",
+    "pos": "other"
+  },
+  {
+    "id": "きょうかい-church",
+    "kanji": "教会",
+    "reading": "きょうかい",
+    "meaning": "church",
+    "pos": "other"
+  },
+  {
+    "id": "おとす-to-drop",
+    "kanji": "落す",
+    "reading": "おとす",
+    "meaning": "to drop",
+    "pos": "other"
+  },
+  {
+    "id": "まじめ-serious",
+    "reading": "まじめ",
+    "meaning": "serious",
+    "pos": "other"
+  },
+  {
+    "id": "あやまる-to-apologize",
+    "kanji": "謝る",
+    "reading": "あやまる",
+    "meaning": "to apologize",
+    "pos": "other"
+  },
+  {
+    "id": "におい-a-smell",
+    "reading": "におい",
+    "meaning": "a smell",
+    "pos": "other"
+  },
+  {
+    "id": "さわぐ-to-make-noise-to-be-excited",
+    "kanji": "騒ぐ",
+    "reading": "さわぐ",
+    "meaning": "to make noise, to be excited",
+    "pos": "other"
+  },
+  {
+    "id": "しま-island",
+    "kanji": "島",
+    "reading": "しま",
+    "meaning": "island",
+    "pos": "other"
+  },
+  {
+    "id": "すっかり-completely",
+    "reading": "すっかり",
+    "meaning": "completely",
+    "pos": "other"
+  },
+  {
+    "id": "こたえ-response",
+    "kanji": "答",
+    "reading": "こたえ",
+    "meaning": "response",
+    "pos": "other"
+  },
+  {
+    "id": "げんいん-cause-source",
+    "kanji": "原因",
+    "reading": "げんいん",
+    "meaning": "cause, source",
+    "pos": "other"
+  },
+  {
+    "id": "どうぶつえん-zoo",
+    "kanji": "動物園",
+    "reading": "どうぶつえん",
+    "meaning": "zoo",
+    "pos": "other"
+  },
+  {
+    "id": "スーツ-suit",
+    "reading": "スーツ",
+    "meaning": "suit",
+    "pos": "other"
+  },
+  {
+    "id": "ああ-like-that",
+    "reading": "ああ",
+    "meaning": "like that",
+    "pos": "other"
+  },
+  {
+    "id": "さいご-last-end",
+    "kanji": "最後",
+    "reading": "さいご",
+    "meaning": "last, end",
+    "pos": "other"
+  },
+  {
+    "id": "うかがう-to-visit",
+    "reading": "うかがう",
+    "meaning": "to visit",
+    "pos": "other"
+  },
+  {
+    "id": "ほとんど-mostly",
+    "reading": "ほとんど",
+    "meaning": "mostly",
+    "pos": "other"
+  },
+  {
+    "id": "ゆめ-dream",
+    "kanji": "夢",
+    "reading": "ゆめ",
+    "meaning": "dream",
+    "pos": "other"
+  },
+  {
+    "id": "つき-moon",
+    "reading": "つき",
+    "meaning": "moon",
+    "pos": "other"
+  },
+  {
+    "id": "こうこう-high-school",
+    "kanji": "高校",
+    "reading": "こうこう",
+    "meaning": "high school",
+    "pos": "other"
+  },
+  {
+    "id": "き-spirit-mood",
+    "kanji": "気",
+    "reading": "き",
+    "meaning": "spirit, mood",
+    "pos": "other"
+  },
+  {
+    "id": "ただしい-correct",
+    "kanji": "正しい",
+    "reading": "ただしい",
+    "meaning": "correct",
+    "pos": "other"
+  },
+  {
+    "id": "ゆしゅつ・する-to-export",
+    "kanji": "輸出",
+    "reading": "ゆしゅつ・する",
+    "meaning": "to export",
+    "pos": "other"
+  },
+  {
+    "id": "ぶんか-culture",
+    "kanji": "文化",
+    "reading": "ぶんか",
+    "meaning": "culture",
+    "pos": "other"
+  },
+  {
+    "id": "だめ-no-good",
+    "reading": "だめ",
+    "meaning": "no good",
+    "pos": "other"
+  },
+  {
+    "id": "けれど / けれども-however",
+    "kanji": "けれど / けれども",
+    "reading": "けれど / けれども",
+    "meaning": "however",
+    "pos": "other"
+  },
+  {
+    "id": "かざる-to-decorate",
+    "kanji": "飾る",
+    "reading": "かざる",
+    "meaning": "to decorate",
+    "pos": "other"
+  },
+  {
+    "id": "じゅんび・する-to-prepare",
+    "kanji": "準備",
+    "reading": "じゅんび・する",
+    "meaning": "to prepare",
+    "pos": "other"
+  },
+  {
+    "id": "そつぎょう-graduation",
+    "kanji": "卒業",
+    "reading": "そつぎょう",
+    "meaning": "graduation",
+    "pos": "other"
+  },
+  {
+    "id": "まにあう-to-be-in-time-for",
+    "kanji": "間に合う",
+    "reading": "まにあう",
+    "meaning": "to be in time for",
+    "pos": "other"
+  },
+  {
+    "id": "それに-moreover",
+    "reading": "それに",
+    "meaning": "moreover",
+    "pos": "other"
+  },
+  {
+    "id": "ぐあい-condition-health",
+    "kanji": "具合",
+    "reading": "ぐあい",
+    "meaning": "condition, health",
+    "pos": "other"
+  },
+  {
+    "id": "おくりもの-gift",
+    "kanji": "贈り物",
+    "reading": "おくりもの",
+    "meaning": "gift",
+    "pos": "other"
+  },
+  {
+    "id": "かたい-hard",
+    "kanji": "堅 / 硬/固い",
+    "reading": "かたい",
+    "meaning": "hard",
+    "pos": "other"
+  },
+  {
+    "id": "ぼうえき-trade",
+    "kanji": "貿易",
+    "reading": "ぼうえき",
+    "meaning": "trade",
+    "pos": "other"
+  },
+  {
+    "id": "かんがえる-to-consider",
+    "kanji": "考える",
+    "reading": "かんがえる",
+    "meaning": "to consider",
+    "pos": "other"
+  },
+  {
+    "id": "わかれる-to-separate",
+    "kanji": "別れる",
+    "reading": "わかれる",
+    "meaning": "to separate",
+    "pos": "other"
+  },
+  {
+    "id": "サラダ-salad",
+    "reading": "サラダ",
+    "meaning": "salad",
+    "pos": "other"
+  },
+  {
+    "id": "ねぼう-sleeping-in-late",
+    "kanji": "寝坊",
+    "reading": "ねぼう",
+    "meaning": "sleeping in late",
+    "pos": "other"
+  },
+  {
+    "id": "かがく-science",
+    "kanji": "科学",
+    "reading": "かがく",
+    "meaning": "science",
+    "pos": "other"
+  },
+  {
+    "id": "こう-this-way",
+    "reading": "こう",
+    "meaning": "this way",
+    "pos": "other"
+  },
+  {
+    "id": "ひかる-to-shine-to-glitter",
+    "kanji": "光る",
+    "reading": "ひかる",
+    "meaning": "to shine, to glitter",
+    "pos": "other"
+  },
+  {
+    "id": "むすこ-humble-son",
+    "kanji": "息子",
+    "reading": "むすこ",
+    "meaning": "(humble) son",
+    "pos": "other"
+  },
+  {
+    "id": "そだてる-to-rear-to-bring-up",
+    "kanji": "育てる",
+    "reading": "そだてる",
+    "meaning": "to rear, to bring up",
+    "pos": "other"
+  },
+  {
+    "id": "きっと-surely",
+    "reading": "きっと",
+    "meaning": "surely",
+    "pos": "other"
+  },
+  {
+    "id": "あく-to-open-to-become-empty",
+    "kanji": "空く",
+    "reading": "あく",
+    "meaning": "to open, to become empty",
+    "pos": "other"
+  },
+  {
+    "id": "れいぼう-air-conditioning",
+    "kanji": "冷房",
+    "reading": "れいぼう",
+    "meaning": "air conditioning",
+    "pos": "other"
+  },
+  {
+    "id": "コンサート-concert",
+    "reading": "コンサート",
+    "meaning": "concert",
+    "pos": "other"
+  },
+  {
+    "id": "はじめる-to-begin",
+    "kanji": "始める",
+    "reading": "はじめる",
+    "meaning": "to begin",
+    "pos": "other"
+  },
+  {
+    "id": "でんとう-electric-light",
+    "kanji": "電灯",
+    "reading": "でんとう",
+    "meaning": "electric light",
+    "pos": "other"
+  },
+  {
+    "id": "いがく-medical-science",
+    "kanji": "医学",
+    "reading": "いがく",
+    "meaning": "medical science",
+    "pos": "other"
+  },
+  {
+    "id": "やわらかい-soft",
+    "kanji": "柔らかい",
+    "reading": "やわらかい",
+    "meaning": "soft",
+    "pos": "other"
+  },
+  {
+    "id": "さげる-to-hang-to-lower-to-move-back",
+    "kanji": "下げる",
+    "reading": "さげる",
+    "meaning": "to hang, to lower, to move back",
+    "pos": "other"
+  },
+  {
+    "id": "こうちょう-headmaster",
+    "kanji": "校長",
+    "reading": "こうちょう",
+    "meaning": "headmaster",
+    "pos": "other"
+  },
+  {
+    "id": "しんぶんしゃ-newspaper-company",
+    "kanji": "新聞社",
+    "reading": "しんぶんしゃ",
+    "meaning": "newspaper company",
+    "pos": "other"
+  },
+  {
+    "id": "ファックス-fax",
+    "reading": "ファックス",
+    "meaning": "fax",
+    "pos": "other"
+  },
+  {
+    "id": "ほうそう・する-to-broadcast",
+    "kanji": "放送",
+    "reading": "ほうそう・する",
+    "meaning": "to broadcast",
+    "pos": "other"
+  },
+  {
+    "id": "やっと-at-last",
+    "reading": "やっと",
+    "meaning": "at last",
+    "pos": "other"
+  },
+  {
+    "id": "オートバイ-motorcycle",
+    "reading": "オートバイ",
+    "meaning": "motorcycle",
+    "pos": "other"
+  },
+  {
+    "id": "レポート / リポート-report",
+    "kanji": "レポート / リポート",
+    "reading": "レポート / リポート",
+    "meaning": "report",
+    "pos": "other"
+  },
+  {
+    "id": "しんぱい・する-to-worry",
+    "kanji": "心配",
+    "reading": "しんぱい・する",
+    "meaning": "to worry",
+    "pos": "other"
+  },
+  {
+    "id": "きゅうこう-speedy-express",
+    "kanji": "急行",
+    "reading": "きゅうこう",
+    "meaning": "speedy, express",
+    "pos": "other"
+  },
+  {
+    "id": "ひろう-to-pick-up-to-gather",
+    "kanji": "拾う",
+    "reading": "ひろう",
+    "meaning": "to pick up, to gather",
+    "pos": "other"
+  },
+  {
+    "id": "ぬる-to-paint-to-plaster",
+    "kanji": "塗る",
+    "reading": "ぬる",
+    "meaning": "to paint, to plaster",
+    "pos": "other"
+  },
+  {
+    "id": "せん-line",
+    "kanji": "線",
+    "reading": "せん",
+    "meaning": "line",
+    "pos": "other"
+  },
+  {
+    "id": "ようい-preparation",
+    "kanji": "用意",
+    "reading": "ようい",
+    "meaning": "preparation",
+    "pos": "other"
+  },
+  {
+    "id": "せいかつ・する-to-live",
+    "kanji": "生活",
+    "reading": "せいかつ・する",
+    "meaning": "to live",
+    "pos": "other"
+  },
+  {
+    "id": "たいいん・する-to-leave-hospital",
+    "kanji": "退院",
+    "reading": "たいいん・する",
+    "meaning": "to leave hospital",
+    "pos": "other"
+  },
+  {
+    "id": "けが・する-to-injure",
+    "reading": "けが・する",
+    "meaning": "to injure",
+    "pos": "other"
+  },
+  {
+    "id": "ゆれる-to-shake-to-sway",
+    "kanji": "揺れる",
+    "reading": "ゆれる",
+    "meaning": "to shake, to sway",
+    "pos": "other"
+  },
+  {
+    "id": "にゅうがく・する-to-enter-school-or-university",
+    "kanji": "入学",
+    "reading": "にゅうがく・する",
+    "meaning": "to enter school or university",
+    "pos": "other"
+  },
+  {
+    "id": "すうがく-mathematics-arithmetic",
+    "kanji": "数学",
+    "reading": "すうがく",
+    "meaning": "mathematics, arithmetic",
+    "pos": "other"
+  },
+  {
+    "id": "ぜんぜん-not-entirely-used-in-a-negativ",
+    "reading": "ぜんぜん",
+    "meaning": "not entirely (used in a negative sentence)",
+    "pos": "other"
+  },
+  {
+    "id": "いそぐ-to-hurry",
+    "kanji": "急ぐ",
+    "reading": "いそぐ",
+    "meaning": "to hurry",
+    "pos": "other"
+  },
+  {
+    "id": "ひどい-awful",
+    "reading": "ひどい",
+    "meaning": "awful",
+    "pos": "other"
+  },
+  {
+    "id": "しなもの-goods",
+    "kanji": "品物",
+    "reading": "しなもの",
+    "meaning": "goods",
+    "pos": "other"
+  },
+  {
+    "id": "くらべる-to-compare",
+    "kanji": "比べる",
+    "reading": "くらべる",
+    "meaning": "to compare",
+    "pos": "other"
+  },
+  {
+    "id": "つつむ-to-wrap",
+    "kanji": "包む",
+    "reading": "つつむ",
+    "meaning": "to wrap",
+    "pos": "other"
+  },
+  {
+    "id": "じゅうぶん-enough",
+    "kanji": "十分",
+    "reading": "じゅうぶん",
+    "meaning": "enough",
+    "pos": "other"
+  },
+  {
+    "id": "ハンドバッグ-handbag",
+    "reading": "ハンドバッグ",
+    "meaning": "handbag",
+    "pos": "other"
+  },
+  {
+    "id": "けっして-never",
+    "kanji": "決して",
+    "reading": "けっして",
+    "meaning": "never",
+    "pos": "other"
+  },
+  {
+    "id": "なくなる-to-disappear-to-get-lost",
+    "kanji": "無くなる",
+    "reading": "なくなる",
+    "meaning": "to disappear, to get lost",
+    "pos": "other"
+  },
+  {
+    "id": "ようじ-things-to-do",
+    "kanji": "用事",
+    "reading": "ようじ",
+    "meaning": "things to do",
+    "pos": "other"
+  },
+  {
+    "id": "なさる-respectful-to-do",
+    "reading": "なさる",
+    "meaning": "(respectful) to do",
+    "pos": "other"
+  },
+  {
+    "id": "おく-one-hundred-million",
+    "kanji": "億",
+    "reading": "おく",
+    "meaning": "one hundred million",
+    "pos": "other"
+  },
+  {
+    "id": "たのしみ-joy",
+    "kanji": "楽しみ",
+    "reading": "たのしみ",
+    "meaning": "joy",
+    "pos": "other"
+  },
+  {
+    "id": "サンダル-sandal",
+    "reading": "サンダル",
+    "meaning": "sandal",
+    "pos": "other"
+  },
+  {
+    "id": "きゃく-guest-customer",
+    "kanji": "客",
+    "reading": "きゃく",
+    "meaning": "guest, customer",
+    "pos": "other"
+  },
+  {
+    "id": "はんたい-opposition",
+    "kanji": "反対",
+    "reading": "はんたい",
+    "meaning": "opposition",
+    "pos": "other"
+  },
+  {
+    "id": "ひ-fire",
+    "kanji": "火",
+    "reading": "ひ",
+    "meaning": "fire",
+    "pos": "other"
+  },
+  {
+    "id": "くうこう-airport",
+    "kanji": "空港",
+    "reading": "くうこう",
+    "meaning": "airport",
+    "pos": "other"
+  },
+  {
+    "id": "なれる-to-grow-accustomed-to",
+    "kanji": "慣れる",
+    "reading": "なれる",
+    "meaning": "to grow accustomed to",
+    "pos": "other"
+  },
+  {
+    "id": "りょかん-japanese-hotel",
+    "kanji": "旅館",
+    "reading": "りょかん",
+    "meaning": "Japanese hotel",
+    "pos": "other"
+  },
+  {
+    "id": "かむ-to-bite-to-chew",
+    "kanji": "噛む",
+    "reading": "かむ",
+    "meaning": "to bite, to chew",
+    "pos": "other"
+  },
+  {
+    "id": "つける-to-soak-to-pickle",
+    "kanji": "漬ける",
+    "reading": "つける",
+    "meaning": "to soak, to pickle",
+    "pos": "other"
+  },
+  {
+    "id": "おどり-a-dance",
+    "kanji": "踊り",
+    "reading": "おどり",
+    "meaning": "a dance",
+    "pos": "other"
+  },
+  {
+    "id": "こうぎ-lecture",
+    "kanji": "講義",
+    "reading": "こうぎ",
+    "meaning": "lecture",
+    "pos": "other"
+  },
+  {
+    "id": "おくる-to-send",
+    "kanji": "送る",
+    "reading": "おくる",
+    "meaning": "to send",
+    "pos": "other"
+  },
+  {
+    "id": "むかえる-to-go-out-to-meet",
+    "kanji": "迎える",
+    "reading": "むかえる",
+    "meaning": "to go out to meet",
+    "pos": "other"
+  },
+  {
+    "id": "すごい-terrific",
+    "kanji": "凄い",
+    "reading": "すごい",
+    "meaning": "terrific",
+    "pos": "other"
+  },
+  {
+    "id": "いない-within",
+    "kanji": "以内",
+    "reading": "いない",
+    "meaning": "within",
+    "pos": "other"
+  },
+  {
+    "id": "さがす-to-look-for",
+    "kanji": "探す",
+    "reading": "さがす",
+    "meaning": "to look for",
+    "pos": "other"
+  },
+  {
+    "id": "おこなう-to-do",
+    "kanji": "行う",
+    "reading": "おこなう",
+    "meaning": "to do",
+    "pos": "other"
+  },
+  {
+    "id": "ひきだし-drawer-drawing-out",
+    "kanji": "引き出し",
+    "reading": "ひきだし",
+    "meaning": "drawer, drawing out",
+    "pos": "other"
+  },
+  {
+    "id": "やける-to-burn-to-be-roasted",
+    "kanji": "焼ける",
+    "reading": "やける",
+    "meaning": "to burn, to be roasted",
+    "pos": "other"
+  },
+  {
+    "id": "けんか・する-to-quarrel",
+    "reading": "けんか・する",
+    "meaning": "to quarrel",
+    "pos": "other"
+  },
+  {
+    "id": "せなか-back-of-the-body",
+    "kanji": "背中",
+    "reading": "せなか",
+    "meaning": "back of the body",
+    "pos": "other"
+  },
+  {
+    "id": "こむ-to-be-crowded",
+    "kanji": "込む",
+    "reading": "こむ",
+    "meaning": "to be crowded",
+    "pos": "other"
+  },
+  {
+    "id": "あいさつ・する-to-greet",
+    "reading": "あいさつ・する",
+    "meaning": "to greet",
+    "pos": "other"
+  },
+  {
+    "id": "まける-to-lose",
+    "kanji": "負ける",
+    "reading": "まける",
+    "meaning": "to lose",
+    "pos": "other"
+  },
+  {
+    "id": "ごらんになる-respectful-to-see",
+    "reading": "ごらんになる",
+    "meaning": "(respectful) to see",
+    "pos": "other"
+  },
+  {
+    "id": "じむしょ-office",
+    "kanji": "事務所",
+    "reading": "じむしょ",
+    "meaning": "office",
+    "pos": "other"
+  },
+  {
+    "id": "そろそろ-gradually-soon",
+    "reading": "そろそろ",
+    "meaning": "gradually, soon",
+    "pos": "other"
+  },
+  {
+    "id": "びじゅつかん-art-gallery",
+    "kanji": "美術館",
+    "reading": "びじゅつかん",
+    "meaning": "art gallery",
+    "pos": "other"
+  },
+  {
+    "id": "あ-ah",
+    "reading": "あ",
+    "meaning": "Ah",
+    "pos": "other"
+  },
+  {
+    "id": "いがい-with-the-exception-of",
+    "kanji": "以外",
+    "reading": "いがい",
+    "meaning": "with the exception of",
+    "pos": "other"
+  },
+  {
+    "id": "じゃま-hindrance-intrusion",
+    "reading": "じゃま",
+    "meaning": "hindrance, intrusion",
+    "pos": "other"
+  },
+  {
+    "id": "あんしん-relief",
+    "kanji": "安心",
+    "reading": "あんしん",
+    "meaning": "relief",
+    "pos": "other"
+  },
+  {
+    "id": "あつめる-to-collect-something",
+    "kanji": "集める",
+    "reading": "あつめる",
+    "meaning": "to collect something",
+    "pos": "other"
+  },
+  {
+    "id": "すてる-to-throw-away",
+    "kanji": "捨てる",
+    "reading": "すてる",
+    "meaning": "to throw away",
+    "pos": "other"
+  },
+  {
+    "id": "ちゅうしゃじょう-parking-lot",
+    "kanji": "駐車場",
+    "reading": "ちゅうしゃじょう",
+    "meaning": "parking lot",
+    "pos": "other"
+  },
+  {
+    "id": "たしか-definite",
+    "kanji": "確か",
+    "reading": "たしか",
+    "meaning": "definite",
+    "pos": "other"
+  },
+  {
+    "id": "てぶくろ-glove",
+    "kanji": "手袋",
+    "reading": "てぶくろ",
+    "meaning": "glove",
+    "pos": "other"
+  },
+  {
+    "id": "ねつ-fever",
+    "kanji": "熱",
+    "reading": "ねつ",
+    "meaning": "fever",
+    "pos": "other"
+  },
+  {
+    "id": "ゆび-finger",
+    "kanji": "指",
+    "reading": "ゆび",
+    "meaning": "finger",
+    "pos": "other"
+  },
+  {
+    "id": "とめる-to-stop-something",
+    "kanji": "止める",
+    "reading": "とめる",
+    "meaning": "to stop something",
+    "pos": "other"
+  },
+  {
+    "id": "アクセサリー-accessory",
+    "reading": "アクセサリー",
+    "meaning": "accessory",
+    "pos": "other"
+  },
+  {
+    "id": "さがる-to-get-down-to-descend",
+    "kanji": "下る",
+    "reading": "さがる",
+    "meaning": "to get down, to descend",
+    "pos": "other"
+  },
+  {
+    "id": "ほめる-to-praise",
+    "reading": "ほめる",
+    "meaning": "to praise",
+    "pos": "other"
+  },
+  {
+    "id": "まわる-to-go-around",
+    "kanji": "回る",
+    "reading": "まわる",
+    "meaning": "to go around",
+    "pos": "other"
+  },
+  {
+    "id": "くださる-respectful-to-give",
+    "reading": "くださる",
+    "meaning": "(respectful) to give",
+    "pos": "other"
   }
 ]
