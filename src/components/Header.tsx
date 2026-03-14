@@ -11,7 +11,7 @@ export default function Header({ mode, onToggle }: Props) {
     <header className={styles.header}>
       <div className={styles.title}>
         <span className={styles.jp}>日本語</span>
-        <span className={styles.en}>Ben — N5 Vocabulary</span>
+        <span className={styles.en}>Ben — N5 + N4 Vocabulary</span>
       </div>
       <div className={styles.toggle}>
         <button
