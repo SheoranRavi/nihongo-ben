@@ -1,18 +1,21 @@
 import { useState } from 'react';
 import type { GroupMode } from './types';
-import { wordMap, semanticGroups, moraGroups, confusableGroups } from './data/index';
+import { wordMap, semanticGroups, moraGroups, confusableGroups, allWordsGroup } from './data/index';
 import Header from './components/Header';
 import Sidebar, { type SidebarSection } from './components/Sidebar';
 import WordGrid from './components/WordGrid';
 import './App.css';
 
 const groupById = new Map(
-  [...semanticGroups, ...moraGroups, ...confusableGroups].map(g => [g.id, g])
+  [allWordsGroup, ...semanticGroups, ...moraGroups, ...confusableGroups].map(g => [g.id, g])
 );
 
+const allSection: SidebarSection = { title: '', groups: [allWordsGroup] };
+
 const SECTIONS: Record<GroupMode, SidebarSection[]> = {
-  semantic: [{ title: 'Categories', groups: semanticGroups }],
+  semantic: [allSection, { title: 'Categories', groups: semanticGroups }],
   phonetic: [
+    allSection,
     { title: 'By First Sound (行)', groups: moraGroups },
     { title: 'Confusable Pairs', groups: confusableGroups },
   ],

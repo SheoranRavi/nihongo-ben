@@ -12,3 +12,9 @@ export const semanticGroups: Group[] = buildSemanticGroups(words);
 export const moraGroups: Group[] = buildMoraGroups(words);
 
 export const confusableGroups: Group[] = buildConfusableGroups(words);
+
+export const allWordsGroup: Group = {
+  id: 'all',
+  label: 'All Words',
+  wordIds: words.map(w => w.id),
+};

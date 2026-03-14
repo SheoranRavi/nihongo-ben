@@ -17,7 +17,7 @@ export default function Sidebar({ sections, selectedId, onSelect }: Props) {
     <nav className={styles.sidebar}>
       {sections.map(section => (
         <div key={section.title} className={styles.section}>
-          <div className={styles.sectionTitle}>{section.title}</div>
+          {section.title && <div className={styles.sectionTitle}>{section.title}</div>}
           <ul className={styles.list}>
             {section.groups.map(group => (
               <li key={group.id}>
