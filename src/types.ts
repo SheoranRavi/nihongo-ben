@@ -18,7 +18,3 @@ export interface Group {
   wordIds: string[];
 }
 
-export interface PhoneticSubMode {
-  id: 'mora' | 'confusable';
-  label: string;
-}

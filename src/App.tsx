@@ -2,9 +2,21 @@ import { useState } from 'react';
 import type { GroupMode } from './types';
 import { wordMap, semanticGroups, moraGroups, confusableGroups } from './data/index';
 import Header from './components/Header';
-import Sidebar from './components/Sidebar';
+import Sidebar, { type SidebarSection } from './components/Sidebar';
 import WordGrid from './components/WordGrid';
 import './App.css';
+
+const groupById = new Map(
+  [...semanticGroups, ...moraGroups, ...confusableGroups].map(g => [g.id, g])
+);
+
+const SECTIONS: Record<GroupMode, SidebarSection[]> = {
+  semantic: [{ title: 'Categories', groups: semanticGroups }],
+  phonetic: [
+    { title: 'By First Sound (行)', groups: moraGroups },
+    { title: 'Confusable Pairs', groups: confusableGroups },
+  ],
+};
 
 export default function App() {
   const [mode, setMode] = useState<GroupMode>('semantic');
@@ -14,25 +26,17 @@ export default function App() {
 
   function handleModeToggle(newMode: GroupMode) {
     setMode(newMode);
-    if (newMode === 'semantic') {
-      setSelectedId(semanticGroups[0]?.id ?? null);
-    } else {
-      setSelectedId(moraGroups[0]?.id ?? null);
-    }
+    setSelectedId(SECTIONS[newMode][0].groups[0]?.id ?? null);
   }
 
-  const allGroups = [...semanticGroups, ...moraGroups, ...confusableGroups];
-  const selectedGroup = selectedId ? allGroups.find(g => g.id === selectedId) ?? null : null;
+  const selectedGroup = selectedId ? groupById.get(selectedId) ?? null : null;
 
   return (
     <div className="app">
       <Header mode={mode} onToggle={handleModeToggle} />
       <div className="layout">
         <Sidebar
-          mode={mode}
-          semanticGroups={semanticGroups}
-          moraGroups={moraGroups}
-          confusableGroups={confusableGroups}
+          sections={SECTIONS[mode]}
           selectedId={selectedId}
           onSelect={setSelectedId}
         />

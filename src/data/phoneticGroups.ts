@@ -15,9 +15,13 @@ const MORA_ROWS: { id: string; label: string; chars: string[] }[] = [
   { id: 'kata',   label: 'カタカナ語 (katakana)', chars: [] }, // katakana words
 ];
 
+// Normalize a reading for comparison: strip spaces, slashes, take first variant
+function normalizeReading(r: string): string {
+  return r.split(/[\s/]/)[0].trim();
+}
+
 function getFirstHiragana(reading: string): string {
-  // Extract the first character, normalize spaces/slashes
-  return reading.split(/[\s/]/)[0].trim()[0] || '';
+  return normalizeReading(reading)[0] || '';
 }
 
 function isKatakana(ch: string): boolean {
@@ -61,25 +65,20 @@ export function buildMoraGroups(words: Word[]): Group[] {
   return groups;
 }
 
-// Simple Levenshtein distance on strings
+// Levenshtein distance using a single rolling row (O(n) space instead of O(m*n))
 function levenshtein(a: string, b: string): number {
   const m = a.length, n = b.length;
-  const dp: number[][] = Array.from({ length: m + 1 }, (_, i) =>
-    Array.from({ length: n + 1 }, (_, j) => (i === 0 ? j : j === 0 ? i : 0))
-  );
+  let row = Array.from({ length: n + 1 }, (_, j) => j);
   for (let i = 1; i <= m; i++) {
+    let prev = row[0];
+    row[0] = i;
     for (let j = 1; j <= n; j++) {
-      dp[i][j] = a[i - 1] === b[j - 1]
-        ? dp[i - 1][j - 1]
-        : 1 + Math.min(dp[i - 1][j], dp[i][j - 1], dp[i - 1][j - 1]);
+      const tmp = row[j];
+      row[j] = a[i - 1] === b[j - 1] ? prev : 1 + Math.min(prev, row[j], row[j - 1]);
+      prev = tmp;
     }
   }
-  return dp[m][n];
-}
-
-// Normalize a reading for comparison: strip spaces, slashes, take first variant
-function normalizeReading(r: string): string {
-  return r.split(/[\s/]/)[0].trim();
+  return row[n];
 }
 
 export function buildConfusableGroups(words: Word[]): Group[] {
@@ -93,6 +92,7 @@ export function buildConfusableGroups(words: Word[]): Group[] {
     byReading.set(w.norm, arr);
   }
 
+  const homophoneIds = new Set<string>();
   const homophoneGroups: Group[] = [];
   for (const [reading, ids] of byReading) {
     if (ids.length >= 2) {
@@ -101,15 +101,14 @@ export function buildConfusableGroups(words: Word[]): Group[] {
         label: `${reading} (同音)`,
         wordIds: ids,
       });
+      for (const id of ids) homophoneIds.add(id);
     }
   }
 
   // 2. Near-homophones: Levenshtein distance ≤ 1 for words ≤ 4 mora, ≤ 2 for longer
   // Use Union-Find to cluster similar-sounding words
   // Build adjacency (only among non-homophone words to avoid double counting)
-  const nonHomophoneWords = normalized.filter(
-    w => !homophoneGroups.some(g => g.wordIds.includes(w.id))
-  );
+  const nonHomophoneWords = normalized.filter(w => !homophoneIds.has(w.id));
 
   // Union-Find
   const parent = new Map<string, string>(nonHomophoneWords.map(w => [w.id, w.id]));
@@ -149,14 +148,13 @@ export function buildConfusableGroups(words: Word[]): Group[] {
     clusters.set(root, arr);
   }
 
+  const normMap = new Map(nonHomophoneWords.map(w => [w.id, w.norm]));
   const nearGroups: Group[] = [];
   for (const [, ids] of clusters) {
     if (ids.length >= 2) {
-      // Label with first reading in the cluster
-      const rep = nonHomophoneWords.find(w => w.id === ids[0])!;
       nearGroups.push({
         id: `near-${ids[0]}`,
-        label: `〜${rep.norm}〜 (似た音)`,
+        label: `〜${normMap.get(ids[0])!}〜 (似た音)`,
         wordIds: ids,
       });
     }

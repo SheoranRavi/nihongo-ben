@@ -39,15 +39,16 @@ export default function WordCard({ word }: Props) {
         <div className={styles.meaning}>{word.meaning}</div>
         {posLabel && <span className={`${styles.pos} ${styles[`pos-${word.pos}`]}`}>{posLabel}</span>}
       </div>
-      {expanded && word.example && (
+      {expanded && (
         <div className={styles.example}>
-          <p className={styles.exampleJa}>{word.example.ja}</p>
-          <p className={styles.exampleEn}>{word.example.en}</p>
-        </div>
-      )}
-      {expanded && !word.example && (
-        <div className={styles.example}>
-          <p className={styles.noExample}>No example available</p>
+          {word.example ? (
+            <>
+              <p className={styles.exampleJa}>{word.example.ja}</p>
+              <p className={styles.exampleEn}>{word.example.en}</p>
+            </>
+          ) : (
+            <p className={styles.noExample}>No example available</p>
+          )}
         </div>
       )}
     </div>

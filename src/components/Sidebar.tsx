@@ -1,35 +1,18 @@
-import type { Group, GroupMode } from '../types';
+import type { Group } from '../types';
 import styles from './Sidebar.module.css';
 
-interface Props {
-  mode: GroupMode;
-  semanticGroups: Group[];
-  moraGroups: Group[];
-  confusableGroups: Group[];
-  selectedId: string | null;
-  onSelect: (id: string) => void;
-}
-
-interface SidebarSection {
+export interface SidebarSection {
   title: string;
   groups: Group[];
 }
 
-export default function Sidebar({
-  mode,
-  semanticGroups,
-  moraGroups,
-  confusableGroups,
-  selectedId,
-  onSelect,
-}: Props) {
-  const sections: SidebarSection[] = mode === 'semantic'
-    ? [{ title: 'Categories', groups: semanticGroups }]
-    : [
-        { title: 'By First Sound (行)', groups: moraGroups },
-        { title: 'Confusable Pairs', groups: confusableGroups },
-      ];
+interface Props {
+  sections: SidebarSection[];
+  selectedId: string | null;
+  onSelect: (id: string) => void;
+}
 
+export default function Sidebar({ sections, selectedId, onSelect }: Props) {
   return (
     <nav className={styles.sidebar}>
       {sections.map(section => (
