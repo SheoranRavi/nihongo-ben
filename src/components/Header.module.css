@@ -1,0 +1,63 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 24px;
+  height: 56px;
+  background: #fff;
+  border-bottom: 1px solid #eee;
+  flex-shrink: 0;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.title {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+}
+
+.jp {
+  font-size: 1.15rem;
+  font-weight: 800;
+  color: #1a1a1a;
+  font-family: 'Noto Serif JP', 'Yu Mincho', 'Hiragino Mincho ProN', serif;
+}
+
+.en {
+  font-size: 0.85rem;
+  color: #888;
+  font-weight: 500;
+}
+
+.toggle {
+  display: flex;
+  background: #f2f2f2;
+  border-radius: 8px;
+  padding: 3px;
+  gap: 2px;
+}
+
+.btn {
+  padding: 5px 14px;
+  border: none;
+  border-radius: 6px;
+  background: transparent;
+  cursor: pointer;
+  font-size: 0.83rem;
+  font-weight: 500;
+  color: #777;
+  transition: background 0.15s, color 0.15s;
+}
+
+.btn:hover {
+  color: #333;
+}
+
+.btn.active {
+  background: #fff;
+  color: #1a1a1a;
+  font-weight: 600;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+}
