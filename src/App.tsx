@@ -26,22 +26,37 @@ export default function App() {
   const [selectedId, setSelectedId] = useState<string | null>(
     semanticGroups[0]?.id ?? null
   );
+  const [sidebarOpen, setSidebarOpen] = useState(false);
 
   function handleModeToggle(newMode: GroupMode) {
     setMode(newMode);
     setSelectedId(SECTIONS[newMode][0].groups[0]?.id ?? null);
   }
 
+  function handleSelect(id: string) {
+    setSelectedId(id);
+    setSidebarOpen(false);
+  }
+
   const selectedGroup = selectedId ? groupById.get(selectedId) ?? null : null;
 
   return (
     <div className="app">
-      <Header mode={mode} onToggle={handleModeToggle} />
+      <Header
+        mode={mode}
+        onToggle={handleModeToggle}
+        onMenuToggle={() => setSidebarOpen(o => !o)}
+        sidebarOpen={sidebarOpen}
+      />
       <div className="layout">
+        {sidebarOpen && (
+          <div className="overlay" onClick={() => setSidebarOpen(false)} />
+        )}
         <Sidebar
           sections={SECTIONS[mode]}
           selectedId={selectedId}
-          onSelect={setSelectedId}
+          onSelect={handleSelect}
+          open={sidebarOpen}
         />
         <main className="main">
           <WordGrid group={selectedGroup} wordMap={wordMap} />

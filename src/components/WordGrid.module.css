@@ -37,3 +37,18 @@
   color: #bbb;
   font-size: 0.95rem;
 }
+
+@media (max-width: 640px) {
+  .container {
+    padding: 16px 12px;
+  }
+
+  .groupTitle {
+    font-size: 1.1rem;
+  }
+
+  .grid {
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    gap: 8px;
+  }
+}

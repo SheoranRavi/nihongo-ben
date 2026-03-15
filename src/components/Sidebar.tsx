@@ -10,11 +10,12 @@ interface Props {
   sections: SidebarSection[];
   selectedId: string | null;
   onSelect: (id: string) => void;
+  open: boolean;
 }
 
-export default function Sidebar({ sections, selectedId, onSelect }: Props) {
+export default function Sidebar({ sections, selectedId, onSelect, open }: Props) {
   return (
-    <nav className={styles.sidebar}>
+    <nav className={`${styles.sidebar} ${open ? styles.open : ''}`}>
       {sections.map(section => (
         <div key={section.title} className={styles.section}>
           {section.title && <div className={styles.sectionTitle}>{section.title}</div>}

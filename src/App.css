@@ -35,3 +35,17 @@ body {
   display: flex;
   flex-direction: column;
 }
+
+.overlay {
+  display: none;
+}
+
+@media (max-width: 640px) {
+  .overlay {
+    display: block;
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.3);
+    z-index: 20;
+  }
+}
